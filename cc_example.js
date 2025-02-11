@@ -1,7 +1,7 @@
 // Task 1 
 let products = {
-    {"Laptop", price: 1200, category: "Electronics"},
-    {"Phone", price: 600, category: "Electronics"},
+    {name: "Laptop", price: 1200, category: "Electronics"},
+    {name: "Phone", price: 600, category: "Electronics"},
 
 };
 
@@ -27,3 +27,9 @@ function applyDiscount(products, discountRate) {
 }
 
 console.log(applyDiscount(products, .1)); 
+
+function sum3(x,y,z) {
+    return x+y+z
+}
+
+console.log(sum3); 
