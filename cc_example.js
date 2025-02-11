@@ -40,3 +40,15 @@ let sales = [250, 400, 150, 900, 1200];
 function calculateTotalRevenue(sales){
     return sales.reduce((total, item)=> total + sales, 0)
 }
+
+// Task 4 Update Salary 
+
+let employee = {
+    name: "John",
+    salary: 60000,
+    position: "Manager"
+}: 
+
+function updateSalary(employee, percentageIncrease) {
+    employee.salary = employee.salaray + (employee.salaray * percentageIncrease)
+}; 
