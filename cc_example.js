@@ -33,3 +33,10 @@ function sum3(x,y,z) {
 }
 
 console.log(sum3); 
+
+// Task 3 Using reduce 
+
+let sales = [250, 400, 150, 900, 1200];
+function calculateTotalRevenue(sales){
+    return sales.reduce((total, item)=> total + sales, 0)
+}
